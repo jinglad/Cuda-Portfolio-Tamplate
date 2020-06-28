@@ -497,9 +497,6 @@ footer{
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-footer ul{
-    
-}
 footer ul li{
     display: inline-block;
     list-style-type: none;
