@@ -5,6 +5,7 @@
 }
 html{
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 body{
     font-family: 'Titillium Web', sans-serif;
@@ -16,7 +17,7 @@ body{
     clear: both;
 }
 .container{
-    width: 1140px;
+    max-width: 114rem;
     margin: auto;
     /* text-align: center; */
     /* height: 100%; */
@@ -24,7 +25,7 @@ body{
 }
 header{
     background: #87509c;
-    padding: 30px;
+    padding: 3rem;
     /* height: 86vh; */
 }
 .logo{
@@ -36,7 +37,7 @@ header{
 .menu{
     width: 80%;
     float: left;
-    margin-top: 15px;
+    margin-top: 1.5rem;
     /* margin-top: 50px; */
     /* background:red; */
 }
@@ -50,12 +51,12 @@ header{
 }
 .menu ul li a{
     text-decoration: none;
-    font-size: 16px;
-    padding: 5px 12px;
+    font-size: 1.6rem;
+    padding: .5rem 1.2rem;
     color: white;
     text-transform: uppercase;
-    border-radius: 5px;
-    margin-right: 20px;
+    border-radius: .5rem;
+    margin-right: 2rem;
 }
 .mr-0{
     margin-right: 0;
@@ -73,75 +74,77 @@ header{
     display: block;
 }
 */
-/*
+
 .sticky{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    background: #87509cc4;
+    padding: 1.5rem 0;
 }
-*/
+
 .active{
     background: #643a79;
 }
 .hero-txt-btn{
-    margin-top: 230px;
-    margin-bottom: 250px;
+    margin-top: 23rem;
+    margin-bottom: 25rem;
     text-align: center;
 }
 .hero-txt{
-    font-size: 43px;
+    font-size: 4.3rem;
     color: white;
     /* text-align: center; */
     font-weight: bold;
     width: 100%;
 }
 .hero-txt-btn a{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 2rem 7rem;
     background: #eb7d4b;
     text-transform: uppercase;
     border: none;
-    border-bottom: 3px solid #c86a40;
-    border-radius: 3px;
+    border-bottom: .3rem solid #c86a40;
+    border-radius: .3rem;
 }
 .hero-txt-btn .hero-btn{
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 .services{
     background: #17c2a4;
-    padding: 120px 0;
+    padding: 12rem 0;
 }
 .services-heading{
     text-align: center;
 }
 hr{
-    width: 85px;
-    margin: 15px auto;
-    height: 4px;
+    width: 8.5rem;
+    margin: 1.5rem auto;
+    height: .4rem;
     background-color: black;
     border: none;
 }
 h2{
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: .5rem;
 }
 h3{
     color: white;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 .mb-25{
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 .mb-35{
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
 }
 .services-heading hr{
     background-color: #14a58c;
@@ -151,21 +154,21 @@ h3{
     text-align: center;
 }
 .p-10{
-    padding: 10px;
+    padding: 1rem;
 }
 
 .little-description{
-    width:610px;
+    width:61rem;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 80px;
+    margin-top: .5rem;
+    margin-bottom: 8rem;
     color: white;
-    letter-spacing: 1px;
-    font-size: 18px;
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
 }
 .services-icon{
-    margin-bottom: 65px;
-    height: 130px;
+    margin-bottom: 6.5rem;
+    height: 13rem;
 }
 .box{
     width: 25%;
@@ -173,15 +176,15 @@ h3{
     overflow: hidden;
 }
 .box-p{
-    width: 200px;
+    width: 20rem;
     margin: auto;
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
 }
 .team{
     background: #e7f1f8;
-    margin: 145px auto;
+    padding: 14.5rem 0;
     text-align: center;
 }
 .team h2{
@@ -190,62 +193,50 @@ h3{
 .team-heading p{
     color: #3c4761;
     letter-spacing: 1;
-    width: 700px;
+    width: 70rem;
 }
 .team hr{
     background: #c8d9e5;
 }
 .team-member img{
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
-    margin-bottom: 42px;
+    margin-bottom: 4.2rem;
 }
 .team-member h3{
     color: #3c4761;
-    font-size: 24px;
+    font-size: 2.4rem;
     /* font-weight: ; */
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
 }
 .team-member h4{
     color: #79d0ee;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: regular;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 .team-member p{
     color: #3c4761;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: regular;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
-/*
- .social-icon{
-    padding:  5px;
-    background: #bdd1df;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    border-radius: 50%;
-    color: white;
-    margin: auto;
-} 
-*/
+
 .social-icon{
-    margin-top:20px;
+    margin-top:2rem;
 }
  .social-icon ul li{
     display: inline-block;
-/*    margin: 0 5px;*/
     list-style-type: none;
 }
 .social-icon ul li a{
-    padding: 15px;
-    font-size: 18px;
+    padding: 1.5rem;
+    font-size: 1.8rem;
     color: white;
     background:#bdd1df;
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     display: block;
     border-radius: 50%;
     transition: .5s;
@@ -254,43 +245,27 @@ h3{
     background: #3c4761;
     transform: rotate(360deg);
 }
-
-/*
-.social-icon ul li a{
-    color: white;
-}
-.social-icon ul li a i::before{
-    content: "";
-    background: #bdd1df;
-    font-size: 18px;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 10px;
-} 
-*/
 .skills{
     text-align: center;
     /* background: #bdd1df; */
-    padding: 90px 0;
+    padding: 9rem 0;
 }
 .skills h2{
     color: #3c4761;
 }
 .skills p{
     color: #3c4761;
-    margin-top: 20px;
-    width: 650px;
+    margin-top: 2rem;
+    width: 65rem;
 }
 .skills hr{
     background: #c8d9e5;
 }
 .skills h3{
     color: #3c4761;
-    font-size: 24px;
+    font-size: 2.4rem;
     /* font-weight: ; */
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
 }
 svg.web-design circle {
      stroke: #30bae7; 
@@ -313,7 +288,7 @@ svg.radial-progress text{
 .portfolio{
     background: #ffdd99;
     text-align: center;
-    padding: 145px 0;
+    padding: 14.5rem 0;
 }
 .portfolio-header h2{
     color: #3c4761;
@@ -326,19 +301,17 @@ svg.radial-progress text{
     line-height: 2rem;
 }
 .filter{
-    margin: 50px 0;
+    margin: 5rem 0;
 }
-/* .bg-white{
-   /* background : #ffffff;
-} */ 
 .filter button{
-    padding: 5px 20px;
+    padding: .5rem 2rem;
     text-transform: uppercase;
-    margin-right: 5px;
-    border-radius: 3px;
+    margin-right: .5rem;
+    border-radius: .3rem;
     border: none;
     background: #ebc985;
     transition: .5s;
+    font-size: 1.6rem;
 }
 .filter button:focus{
     outline: none;
@@ -346,36 +319,38 @@ svg.radial-progress text{
 .filter button:hover{
     cursor: pointer;
     /* background: #fff; */
-    box-shadow: inset 0 3px 5px rgba(60, 71, 97,0.9);
+    box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97,0.9);
 }
 .filter .mixitup-control-active{
     background: #ffffff;
 }
 .portfolio-content h4{
-    margin-top: 15px;
-    /* font-size: ; */
+    margin-top: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 400;
 }
+.portfolio-content img{
+    width: 85%;
+}
 .portfolio-bottom-btn{
-    margin-top: 65px;
+    margin-top: 6.5rem;
 }
 .portfolio-bottom-btn a{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 2rem 7rem;
     background: #17c2a4;
     text-transform: uppercase;
     border: none;
-    border-bottom: 3px solid #14a58c;
-    border-radius: 3px;
+    border-bottom: .3rem solid #14a58c;
+    border-radius: .3rem;
 }
 .testimonial{
     background: #d74680;
-    padding: 145px 0;
-/*    text-align: center;*/
+    padding: 14.5rem 0;
 }
 .testimonial-header{
     text-align: center;
@@ -384,68 +359,60 @@ svg.radial-progress text{
     background: #b73c6d;
 }
 .client-photo{
-    width: 80px;
+    width: 8rem;
     float: left;
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 .client-photo img{
-/*    width: 100px;*/
-    height: 80px;
+    height: 8rem;
     border-radius: 50%;
-/*    margin-top: 40px;*/
 }
 .client-review{
-    width: 300px;
+    width: 30rem;
     float: left;
-/*    margin-left: 40px;*/
 }
 .testimonial-content .col:first-child{
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 .testimonial-content .col:nth-child(2){
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 .testimonial-content .col:nth-child(3){
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .testimonial-content .col:last-child{
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .mt-15px{
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 .mt-40px{
-    margin-top: 40px;
+    margin-top: 4rem;
 }
-/*
-.testimonial-content .client-photo{
-    height: 100px;
-    border-radius: 50%;
-}
-*/
 .client-review q{
     color: white;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    font-size:1.6rem;
 }
 .client-review h3{
-    margin-top: 20px;
+    margin-top: 2rem;
     text-align: left;
 }
 .client-review span{
     color: #f2ab91;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .contact{
     background: #3c5499;
     text-align: center;
-    padding: 145px 0;
+    padding: 14.5rem 0;
 }
 
 .contact-header hr{
     background: #273a71;
 }
 .contact-header p{
-    width: 840px;
+    width: 84rem;
 }
 .contact-content{
     width: 80%;
@@ -455,32 +422,35 @@ svg.radial-progress text{
 .contact-content input[type="email"],
 .contact-content textarea{
     width: 100%;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    padding: 30px 15px;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    padding: 3rem 1.5rem;
     background: #273a71;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .contact-content input[type="text"]::placeholder,
 .contact-content input[type="email"]::placeholder,
 .contact-content textarea::placeholder{
     color: white;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .contact-submit-btn input{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 2rem 7rem;
     background: #30bae7;
     text-transform: uppercase;
     border: none;
-    border-bottom: 3px solid #299ec5;
-    border-radius: 3px;
+    border-bottom: .3rem solid #299ec5;
+    border-radius: .3rem;
+}
+.contact-submit-btn input:hover{
+    cursor: pointer;
 }
 .contact-content input:focus{
     outline: none;
@@ -489,13 +459,13 @@ svg.radial-progress text{
     outline: none;
 }
 .contact-submit-btn{
-     margin-top: 25px;
+     margin-top: 2.5rem;
 }
 footer{
     background: #344b8e;
-    padding: 40px 0;
+    padding: 4rem 0;
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: .1rem solid rgba(255, 255, 255, 0.2);
 }
 footer ul li{
     display: inline-block;
@@ -504,8 +474,8 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: white;
-    font-size: 24px;
-    padding: 0 30px;
+    font-size: 2.4rem;
+    padding: 0 3rem;
     text-transform: capitalize;
 }
 footer ul li a:hover{

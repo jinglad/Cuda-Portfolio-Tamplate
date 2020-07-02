@@ -1,10 +1,9 @@
 $(document).ready(function(){
     
-    $(".js--services-sectio").waypoint(function(direction){
-       if(direction=="down"){
+    $(".js--services-section").waypoint(function(direction){
+       if(direction == "down"){
            $("nav").addClass("sticky");
-       } 
-        else{
+       } else{
             $("nav").removeClass("sticky");
         }
     });
