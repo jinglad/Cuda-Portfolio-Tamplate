@@ -1,7 +1,10 @@
+@media only screen and (max-width:1200px){
+    .hero-txt-btn{
+        margin-top: 20rem;
+        margin-bottom: 18rem;
+    }
+}
 @media only screen and (max-width:1024px){
-   .menu{
-       display: none;
-   }
    html{
        font-size: 8px;
    }
@@ -36,4 +39,55 @@
     .span_1_of_4:nth-child(3){
         margin-left: 0;
     }
+    .box-p{
+        width: 28rem;
+    }
+    .services-icon{
+        margin-bottom: 2.5rem;
+    }
+    .services-content h3{
+        margin-bottom: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
 }
+@media only screen and (max-width:576px){
+    .contact-header p{
+        width: 100%;
+    }
+    .team-heading p{
+        width : 100%;
+    }
+    h2{
+        letter-spacing: .2rem;
+    }
+    .client-review{
+        margin-left: 1rem;
+    }
+    footer ul li a{
+        padding: 0 1rem;
+        font-size: 1.5rem;
+    }
+    .hero-txt{
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .team-member p{
+        width : 95%;
+    }
+    .skills p{
+        width: 100%;
+    }
+    .portfolio-content:nth-child(1){
+        margin-left: .5rem;
+    }
+    .little-description{
+        width: 100%;
+    }
+}
+
